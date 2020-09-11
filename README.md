@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.com/jmontoya93/jasmine-ci.svg?branch=master)](https://travis-ci.com/jmontoya93/jasmine-ci)
