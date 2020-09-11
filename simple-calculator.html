@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Simple Calculator </title>
+        <script src="calculator.js"></script>
+        <script src="main.js"></script>
+        <script>
+            window.onload = function() {
+                showVersion();
+            }
+        </script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="body">
+
+        <h1 class="title">Simple Calculator </h1>
+        
+        <input type="text" class="input" 
+        onchange="calculate(this.value)"
+        placeholder="Enter operation" title="calculator">
+        <div class="result-container">
+            <div class="title">Result</div> 
+            <span id="result"></span>
+        </div>
+
+        <div class="version"> version <span id="version"></span></div>
+    </body>
+</html>
